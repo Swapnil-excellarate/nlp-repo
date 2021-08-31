@@ -8,6 +8,9 @@ def tokenized(sentence):
 def stem(words):
     return stemmer.stem(words.lower())
 
+def bag_of_word(tokenized_sentence, all_words):
+    pass
+
 a= 'Hi how does long shipping take time'
 print(a)
 a=tokenized(a)
